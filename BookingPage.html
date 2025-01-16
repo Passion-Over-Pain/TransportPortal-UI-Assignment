@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NMU Transport Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="booking">
+        <a href="https://www.mandela.ac.za/">
+          <img src="Images/nmu.png" alt="NMU's website logo" />
+        </a>
+        <h1
+          style="
+            display: block;
+            padding: 5px;
+            background-color: var(--darkblue);
+            color: white;
+          "
+        >
+          Transport Booking Portal
+        </h1>
+        <div id="profile">
+          <div id="pic">
+            <img
+              src="Images/graduate.webp"
+              alt="Student Profile pic"
+              style="width: 100%; height: 100%"
+            />
+          </div>
+          <div>
+            <p style="color: white; display: block">Welcome Back,</p>
+            <h1 style="color: var(--yellow)">Mr Tinotenda Lincoln Mhedziso</h1>
+            <p style="color: white; display: block">
+              Bachelor of Information Technology
+            </p>
+            <p style="color: white; display: block">
+              North Campus Summerstrand
+            </p>
+            <p style="color: white; display: block">s227284240</p>
+          </div>
+        </div>
+        <div id="buttons">
+          <div>
+            <ion-icon name="settings-outline"></ion-icon>
+            <p>Account Settings</p>
+          </div>
+          <div>
+            <ion-icon name="book-outline"></ion-icon>
+            <p>Booking History</p>
+          </div>
+          <div>
+            <ion-icon name="mail-outline"></ion-icon>
+            <p>Email</p>
+          </div>
+          <div>
+            <ion-icon name="school-outline"></ion-icon>
+            <p>Learnsite</p>
+          </div>
+          <div>
+            <ion-icon name="qr-code-outline"></ion-icon>
+            <p>Student Card QR</p>
+          </div>
+          <div>
+            <ion-icon name="newspaper-outline"></ion-icon>
+            <p>Student Portal</p>
+          </div>
+        </div>
+        <div
+          style="
+            padding: 15px;
+            margin-top: 20px;
+            background-color: var(--darkblue);
+            color: white;
+          "
+        >
+          <h3 style="color: var(--yellow)">PLEASE NOTE THE FOLLOWING:</h3>
+          <li>
+            Choose transportation options that fit your schedule and academic
+            goals.
+          </li>
+          <li>
+            This not only ensures timely attendance but also helps in
+            maintaining an organized routine throughout the semester.
+          </li>
+          <li>
+            Therefore, it is highly recommended that students prioritize their
+            academic commitments and select a travel plan accordingly for a
+            successful and productive semester.
+          </li>
+        </div>
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            width: 100vw;
+            background-color: var(--darkblue);
+          "
+        >
+          <div
+            style="
+              padding: 15px;
+              height: 40vh;
+              margin-top: 20px;
+              background-color: var(--darkblue);
+              color: white;
+              display: grid;
+              justify-content: center;
+            "
+          >
+            <h3 style="margin-bottom: 15px"><u>Morning Trip Details:</u></h3>
+            <label for="location">Select a Pick-up location:</label>
+            <select name="location" id="location">
+              <optgroup label="Available Pick-up Locations:">
+                <option value="2nd Avenue Campus">2nd Avenue Campus</option>
+                <option value="Brickmakers Kloof Road">
+                  Brickmakers Kloof Road
+                </option>
+                <option value="Castle House - Evatt Street">
+                  Castle House - Evatt Street
+                </option>
+                <option value="Central Donkin (King Edward Hotel)">
+                  Central Donkin (King Edward Hotel)
+                </option>
+                <option value="Feather Market Hall (Govan Mbeki Avenue)">
+                  Feather Market Hall (Govan Mbeki Avenue)
+                </option>
+              </optgroup>
+            </select>
+            <label for="times">Select a Pick-up time:</label>
+            <select name="times" id="times">
+              <optgroup label="Available Morning Times:">
+                <option value="06:45-Morning Express">
+                  06:45-Morning Express
+                </option>
+                <option value="07:45-Morning Express">
+                  07:45-Morning Express
+                </option>
+                <option value="08:45-Morning Express">
+                  08:45-Morning Express
+                </option>
+                <option value="08:45-Morning Express">
+                  09:45-Morning Express
+                </option>
+              </optgroup>
+            </select>
+
+            <label for="dropoff">Select a Drop-off location:</label>
+            <select name="dropoff" id="dropoff">
+              <optgroup label="Available Drop-off Locations:">
+                <option value="Bird Street Campus">Bird Street Campus</option>
+                <option value="Missionvale Campus">Missionvale Campus</option>
+                <option value="Ocean Science Campus">
+                  Ocean Science Campus
+                </option>
+                <option value="Summerstrand North Campus">
+                  Summerstrand North Campus
+                </option>
+                <option value="Summerstrand South Campus">
+                  Summerstrand South Campus
+                </option>
+              </optgroup>
+            </select>
+          </div>
+          <div
+            style="
+              padding: 15px;
+              height: 40vh;
+              margin-top: 20px;
+              background-color: var(--darkblue);
+              color: white;
+              display: grid;
+              justify-content: center;
+            "
+          >
+            <h3 style="margin-bottom: 15px"><u>Afternoon Trip Details:</u></h3>
+            <label for="location">Select a Pick-up location:</label>
+            <select name="location" id="location">
+              <optgroup label="Available Pick-up Locations:">
+                <option value="Bird Street Campus">Bird Street Campus</option>
+                <option value="Missionvale Campus">Missionvale Campus</option>
+                <option value="Summerstrand North Campus">
+                  Summerstrand North Campus
+                </option>
+                <option value="Summerstrand South Campus">
+                  Summerstrand South Campus
+                </option>
+              </optgroup>
+            </select>
+            <label for="times">Select a Pick-up time:</label>
+            <select name="times" id="times">
+              <optgroup label="Available Morning Times:">
+                <option value="12:00-Afternoon Express">
+                  12:00-Afternoon Express
+                </option>
+                <option value="14:00-Afternoon Express">
+                  14:00-Afternoon Express
+                </option>
+                <option value="16:00-Afternoon Express">
+                  16:00-Afternoon Express
+                </option>
+                <option value="18:00-Afternoon Express">
+                  18:00-Afternoon Express
+                </option>
+                <option value="20:00-Afternoon Express">
+                  20:00-Afternoon Express
+                </option>
+              </optgroup>
+            </select>
+
+            <label for="dropoff">Select a Drop-off location:</label>
+            <select name="dropoff" id="dropoff">
+              <optgroup label="Available Drop-off Locations:">
+                <option value="2nd Avenue Campus">2nd Avenue Campus</option>
+                <option value="Brickmakers Kloof Road">
+                  Brickmakers Kloof Road
+                </option>
+                <option value="Castle House - Evatt Street">
+                  Castle House - Evatt Street
+                </option>
+                <option value="Central Donkin (King Edward Hotel)">
+                  Central Donkin (King Edward Hotel)
+                </option>
+                <option value="Feather Market Hall (Govan Mbeki Avenue)">
+                  Feather Market Hall (Govan Mbeki Avenue)
+                </option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
+        <div
+          style="
+            display: block;
+            margin-top: 15px;
+            background-color: var(--darkblue);
+            padding: 15px;
+          "
+        >
+          <iframe
+            style="height: 30vh; width: 80vw"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.7743059028157!2d25.6712403629312!3d-33.99833044056865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e6532ceb52c38f9%3A0x495ef284e791e50!2sNelson%20Mandela%20University%20North%20Campus!5e0!3m2!1sen!2sza!4v1727192186090!5m2!1sen!2sza"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div
+          style="
+            display: inline-block;
+            background-color: var(--darkblue);
+            width: 100vw;
+            padding: 15px;
+            margin-top: 15px;
+          "
+        >
+          <input
+            type="button"
+            value="CONFIRM ✔"
+            id="Confirm"
+            class="btn myExtra"
+            onclick="Confirm()"
+          />
+          <input
+            type="button"
+            value="RESET ♻"
+            id="Reset"
+            class="btn myExtra"
+            onclick="Reset()"
+          />
+          <a href="index.html">
+            <input
+              type="button"
+              value="SIGN OUT ❌"
+              id="Reset"
+              class="btn myExtra"
+            />
+          </a>
+        </div>
+      </div>
+    </main>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="function.js"></script>
+  </body>
+</html>
