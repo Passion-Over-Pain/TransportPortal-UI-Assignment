@@ -1,11 +1,18 @@
 # Interaction Design and Process Modelling Assignment
 
+![TransportBookingPortalBanner](https://github.com/user-attachments/assets/d65dcde7-8128-445a-9922-40110fc6178e)
+---
+
 **Assignment**  
 s227284240  
 **Tinotenda Mhedziso**  
 >[!NOTE]
 >This transport booking portal User Interface is adapted from Nelson Mandela University. The project is a simple website that shall not be revised after the conclusion of the investigation.
 
+
+
+
+---
 ## Introduction
 
 Nelson Mandela University has approximately 32,000 students enrolled for the 2024 academic year. A large portion of these students utilize the university's shuttle services. This assignment analyzes the correlation between the use of the transport booking portal and the shuttle service system through surveys, storyboards, and a summary of findings.
