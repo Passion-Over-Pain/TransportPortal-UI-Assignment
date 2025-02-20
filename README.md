@@ -124,3 +124,11 @@ The NMU Transport Booking Portal demonstrates high usability in its current form
 
 [Survey Form](https://forms.office.com/r/HmxVbVpJRN) | [Survey Design Page](https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&FormId=s-5wvTelWkOTfHzTMNx02KjrT43ccIhHnzePSdcPMtBURExITU05WjZKRDRNMEFMR081UlJJQTI3QS4u&Token=cf87fcca29d646959ec0b6664802053d)
 
+<p align="center" style="font-family: 'Times New Roman', serif;">
+  <a href="https://dev.to/passionoverpain">Dev.to</a> |
+  <a href="mailto:tinomhedziso21@gmail.com">Email</a> |
+  <a href="https://github.com/Passion-Over-Pain">GitHub</a> |
+  <a href="https://www.linkedin.com/in/tinotenda-mhedziso/">LinkedIn</a> |
+  <a href="https://tinotenda-mhedziso.pages.dev/">Website</a>
+</p>
+
